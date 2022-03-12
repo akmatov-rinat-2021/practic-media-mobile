@@ -15,7 +15,7 @@ body {
   position: relative;
   display: flex;
   justify-content: space-between;
-	align-items: center;
+  align-items: center;
 }
 .logo {
   padding: 15px 30px;
@@ -111,23 +111,23 @@ body {
   }
 }
 @media (min-width: 1024px) {
-	.menu-toggle{
-		display: none;
-	}
-	.menu{
-		display: flex;
-		position: static;
-		flex-direction: row;
-		gap: 15px;
-		background-color: #fff;
-	}	
-	
-	.menu a{
-		padding: 15px 30px;
-		color: black;
-		background-color: #ccc;
-		border-radius: 4px;
-	}
+  .menu-toggle {
+    display: none;
+  }
+  .menu {
+    display: flex;
+    position: static;
+    flex-direction: row;
+    gap: 15px;
+    background-color: #fff;
+  }
+
+  .menu a {
+    padding: 15px 30px;
+    color: black;
+    background-color: #ccc;
+    border-radius: 4px;
+  }
   .features-list {
     justify-content: center;
   }
@@ -135,7 +135,7 @@ body {
     width: 30%;
     margin-bottom: 0;
   }
-	.news-list{
-		grid-template-columns: repeat(3, 1fr);
-
-	}
+  .news-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
