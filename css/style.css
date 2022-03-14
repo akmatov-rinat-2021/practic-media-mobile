@@ -96,10 +96,10 @@ body {
 }
 .titles::before {
   content: "";
-  background-image: url("/icons/location.svg");
+  background-image: url("../icons/location.svg");
   position: absolute;
   right: 0;
-  stroke-width: 10px;
+  stroke-width: 15px;
   width: 18px;
   height: 18px;
   background-repeat: no-repeat;
