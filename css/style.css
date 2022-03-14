@@ -88,6 +88,24 @@ body {
 .footer {
   text-align: center;
 }
+.titles {
+  display: inline-block;
+  padding: 0 25px;
+  margin-bottom: 0;
+  position: relative;
+}
+.titles::before {
+  content: "";
+  background-image: url("/icons/location.svg");
+  position: absolute;
+  right: 0;
+  stroke-width: 10px;
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 @media (min-width: 768px) {
   .about-inner {
